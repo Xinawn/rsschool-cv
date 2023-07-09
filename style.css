@@ -1,3 +1,43 @@
-.h1{
-    
+body {
+  max-width: 1024px;
+  min-width: 600px;
+  margin: 0 auto;
+  font-family: "roboto2", sans-serif;
+  padding: 2rem;
+  background-color: #92a3c2;
+}
+
+header {
+  background-color: #6a7471dd;
+}
+
+.container {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  font-size: 1.3em;
+  line-height: 50px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+.nav-link {
+  padding: 0 10px;
+  color: #050b5c;
+  text-decoration: none;
+}
 }

@@ -88,4 +88,26 @@ main {
   width: 410px;
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    color: white;
+    background-color: #1e232c;
+}
+
+.footer__github {
+    position: relative;
+    padding-left: 40px;
+}
+
+.footer__year {
+    justify-self: center;
+}
+
+.footer__rsschool {
+    justify-self: end;
+    height: 32px;
+    /* width: 10px; */
 }
